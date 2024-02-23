@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+table 
+{
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+tr:nth-child(odd) td:first-child 
+{
+    background-color: #5d8bf4;
+    color: white;
+}
+tr:nth-child(odd) td:not(:first-child) 
+{
+    background-color: rgb(206, 206, 206); 
+    color: white;
+}
+tr:nth-child(even) td:first-child 
+{
+    background-color: #5d8bf4;
+    color: white;
+}
+tr:nth-child(even) td:not(:first-child) 
+{
+    background-color: rgb(177, 177, 177);
+    color: white;
+}
+th 
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+td
+{
+    text-align: center; vertical-align: middle;
+}
+th:first-child, td:first-child 
+{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+th:last-child, td:last-child 
+{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (min-width: 100vw) and (min-height: 100vh) 
+{
+    body 
+    {
+        overflow: auto;
+    }
+}
+</style>
+<body>
+    <div class="table-container">
+    <table>
+        <thead>
+            <tr style="color: white;;">
+                <th style="height: 40px; background-color:#5d8bf4;"></th>
+                <th style="height: 40px; background-color:#5d8bf4; font-weight: 1000; text-align: center; vertical-align: middle;">
+                    Header 1
+                </th>
+                <th style="height: 40px; background-color:#5d8bf4; font-weight: 1000; text-align: center; vertical-align: middle;">
+                    Header 2
+                </th>
+                <th style="height: 40px; background-color:#5d8bf4; font-weight: 1000; text-align: center; vertical-align: middle;">
+                    Header 3
+                </th>
+                <th style="height: 40px; background-color:#5d8bf4; font-weight: 1000; text-align: center; vertical-align: middle;">
+                    Header 4
+                </th>
+                <th style="height: 40px; background-color:#5d8bf4; font-weight: 1000; text-align: center; vertical-align: middle;">
+                    Header 5
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="height: 60px; background-color:#5d8bf4; font-weight: 1000; text-align: center; vertical-align: middle;">
+                <td>Line 1</td>
+                <td>23</td>
+                <td>123</td>
+                <td>43</td>
+                <td>12</td>
+                <td>76</td>
+            </tr>
+            <tr style="height: 60px; background-color:#5d8bf4; font-weight: 1000; text-align: center; vertical-align: middle;">
+                <td>Line 2</td>
+                <td>23</td>
+                <td>123</td>
+                <td>43</td>
+                <td>12</td>
+                <td>76</td>
+            </tr>
+            <tr style="height: 60px; background-color:#5d8bf4; font-weight: 1000; text-align: center; vertical-align: middle;">
+                <td>Line 3</td>
+                <td>34</td>
+                <td>63</td>
+                <td>25</td>
+                <td>7</td>
+                <td>23</td>
+            </tr>
+            <tr style="height: 60px; background-color:#5d8bf4; font-weight: 1000; text-align: center; vertical-align: middle;">
+                <td>Line 4</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+            <tr style="height: 60px; background-color:#5d8bf4; font-weight: 1000; text-align: center; vertical-align: middle;">
+                <td>Line 5</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+            <tr style="height: 60px; background-color:#5d8bf4; font-weight: 1000; text-align: center; vertical-align: middle;">
+                <td>Line 6</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+            <tr style="height: 60px; background-color:#5d8bf4; font-weight: 1000; text-align: center; vertical-align: middle;">
+                <td>Line 7</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+            <tr style="height: 60px; background-color:#5d8bf4; font-weight: 1000; text-align: center; vertical-align: middle;">
+                <td>Line 8</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>                    
+        </tbody>
+    </table>
+</body>
+</html>
