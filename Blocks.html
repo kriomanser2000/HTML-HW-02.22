@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blocks</title>
+</head>
+<style>
+.plan 
+{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+.plan:hover 
+{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.plan:last-child
+{
+    margin-right: 0;
+}
+.plan-heading 
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.line 
+{
+    text-align: center;
+    height: 2px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.price 
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.description 
+{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.buy-btn 
+{
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+<body>
+    <div class="plan" style="text-align: center;">
+        <div class="plan-heading">ENTERPRISE</div>
+        <div class="line" style="background-color: red;"></div>
+        <div class="price">$69</div>
+        <div class="description" style="color: #ccc;">per month</div>
+        <div class="description">10GB disk space</div>
+        <div class="description">100GB monthly bandwitch</div>
+        <div class="description">20 email accounts</div>
+        <div class="description">Unlimited subdomens</div>
+        <button class="buy-btn" style="background-color: red">Buy Now</button>
+    </div>
+    <div class="plan" style="text-align: center;">
+        <div class="plan-heading">PROFESSIONAL</div>
+        <div class="line" style="background-color: yellow;"></div>
+        <div class="price">$29</div>
+        <div class="description" style="color: #ccc;">per month</div>
+        <div class="description">5GB disk space</div>
+        <div class="description">60GB monthly bandwitch</div>
+        <div class="description">10 email accounts</div>
+        <div class="description">Unlimited subdomens</div>
+        <button class="buy-btn" style="background-color: yellow">Buy Now</button>
+    </div>    
+    <div class="plan" style="text-align: center;">
+        <div class="plan-heading">STANDARD</div>
+        <div class="line" style="background-color: blue;"></div>
+        <div class="price">$19</div>
+        <div class="description" style="color: #ccc;">per month</div>
+        <div class="description">3GB disk space</div>
+        <div class="description">30GB monthly bandwitch</div>
+        <div class="description">5 email accounts</div>
+        <div class="description">Unlimited subdomens</div>
+        <button class="buy-btn" style="background-color: blue">Buy Now</button>
+    </div>   
+    <div class="plan" style="text-align: center;">
+        <div class="plan-heading">BASIC</div>
+        <div class="line" style="background-color: green;"></div>
+        <div class="price">$9</div>
+        <div class="description" style="color: #ccc;">per month</div>
+        <div class="description">1GB disk space</div>
+        <div class="description">10GB monthly bandwitch</div>
+        <div class="description">2 email accounts</div>
+        <div class="description">Unlimited subdomens</div>
+        <button class="buy-btn" style="background-color: green">Buy Now</button>
+    </div>
+</body>
+</html>
